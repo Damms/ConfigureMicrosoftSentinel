@@ -41,6 +41,7 @@ Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 3. Setup Defender for Cloud data connector
 4. Create anaytics rule based on the _Suspicious number of resource creation or deployment activities template_ using the below query scheduling
 | **Setting** | **Value** |
+|-------------|-----------|
 | Run query every | 1 Hours |
 | Lookup data from the last | 1 Hours |
 
