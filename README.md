@@ -28,6 +28,8 @@ Azure Subscription
 
 
 ### Step 1 - [Configure SIEM operations using Microsoft Sentinel](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/2-exercise)
+![image](https://github.com/user-attachments/assets/92ebee21-7a5f-44ce-9abb-58cf16724255)
+
 1. Create Azure Log Analytics workspace
 2. Deploy Microsoft Sentinel to the Log Analytics workspace
 3. Assign Microsoft Sentinel role to a user via IAM Access Control
@@ -35,6 +37,8 @@ Azure Subscription
 
 
 ### Step 2 - [Install Microsoft Sentinel Content Hub solutions and data connectors](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/3-exercise)
+![image](https://github.com/user-attachments/assets/6a4b76a3-861e-4c4a-84ef-704493410118)
+
 Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 1. Deploy Microsoft Sentinel Content Hub solution (Windows Security Events)
 2. Setup data connector for Azure Activity
@@ -46,14 +50,20 @@ Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 | Run query every | 1 Hours |
 | Lookup data from the last | 1 Hours |
 
+5. Check that the Azure Activity workbook is available in My workbooks
+
 
 ### Step 3 - [Configure a data connector Data Collection Rule](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/4-exercise)
+![image](https://github.com/user-attachments/assets/3f57f087-5e95-4b8d-98fd-82ab7afee1a0)
+
 - Configure data connector rule to collect security events
 - Detect threats using near real time analytic rules
 - Configure automation in Microsoft Sentinel to create an incident and assign incident to operator
 
 
 ### Step 4 - [Perform a simulated attack to validate the Analytic and Automation rules](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/5-exercise)
+![image](https://github.com/user-attachments/assets/0fa01547-5abf-4c09-b2d0-484e1f4d5a2b)
+
 Perform privilege escalatioin attack to validate analytic and automation rules.
 
 
