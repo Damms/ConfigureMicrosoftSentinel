@@ -17,7 +17,8 @@ The "Configure SIEM for Security Operations Using Microsoft Sentinel" lab focuse
 
 - Azure
 - Microsoft Sentinel
-- 
+- Log Analytics
+- IAM Access Control
 
 ### Prerequisites 
 Azure Subscription
