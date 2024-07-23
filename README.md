@@ -39,7 +39,6 @@ Azure Subscription
 ### Step 2 - [Install Microsoft Sentinel Content Hub solutions and data connectors](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/3-exercise)
 ![image](https://github.com/user-attachments/assets/6a4b76a3-861e-4c4a-84ef-704493410118)
 
-Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 1. Deploy Microsoft Sentinel Content Hub solution (Windows Security Events)
 2. Setup data connector for Azure Activity
 3. Setup Defender for Cloud data connector
@@ -56,14 +55,29 @@ Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 ### Step 3 - [Configure a data connector Data Collection Rule](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/4-exercise)
 ![image](https://github.com/user-attachments/assets/3f57f087-5e95-4b8d-98fd-82ab7afee1a0)
 
-- Configure data connector rule to collect security events
-- Detect threats using near real time analytic rules
-- Configure automation in Microsoft Sentinel to create an incident and assign incident to operator
+1. Configure data collection rules for Windows Security Events
+2. Create near real time query detection using the below KQL query
+
+```
+SecurityEvent 
+| where EventID == 4732
+| where TargetAccount == "Builtin\\Administrators"
+```
+
+3. Configure an automation in Microsoft Sentinel to assign the owner of the incident to a user
+
 
 
 ### Step 4 - [Perform a simulated attack to validate the Analytic and Automation rules](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/5-exercise)
 ![image](https://github.com/user-attachments/assets/0fa01547-5abf-4c09-b2d0-484e1f4d5a2b)
 
-Perform privilege escalatioin attack to validate analytic and automation rules.
+1. Spin up a Windows VM in Azure
+2. Select the Windows VVM and run the below PowerShell script to perform a simulated Privilege Escalation attack
 
+```
+ net user theusernametoadd /add
+ net user theusernametoadd ThePassword1!
+ net localgroup administrators theusernametoadd /add
+```
+3. Verify that an incident has been created in Microsoft Sentinel
 
