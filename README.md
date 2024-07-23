@@ -40,9 +40,9 @@ Configure Microsoft Sentinel to ingest data using Microsoft Sentinel solutions
 2. Setup data connector for Azure Activity
 3. Setup Defender for Cloud data connector
 4. Create anaytics rule based on the _Suspicious number of resource creation or deployment activities template_ using the below query scheduling
-**Setting** | **Value**
-Run query every | 1 Hours
-Lookup data from the last | 1 Hours
+| **Setting** | **Value** |
+| Run query every | 1 Hours |
+| Lookup data from the last | 1 Hours |
 
 
 ### Step 3 - [Configure a data connector Data Collection Rule](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/4-exercise)
