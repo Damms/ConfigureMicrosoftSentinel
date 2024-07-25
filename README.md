@@ -23,7 +23,7 @@ The "Configure SIEM for Security Operations Using Microsoft Sentinel" lab focuse
 Azure Subscription
 
 ## Steps
-Following Microsoft policy I cannot share the detailed steps and screenshots of what I did to complete the lab. But all updated steps to complete this lab can be found on [MS Learn - Configure SIEM security operations using Microsoft Sentinel](https://learn.microsoft.com/en-us/credentials/applied-skills/configure-siem-security-operations-using-microsoft-sentinel/). Completing this lab I earned the [applied skills certification](https://learn.microsoft.com/api/credentials/share/en-gb/JaedynDamms-1608/E40E566641FAFAA9?sharingId=592CAF5B8FD33BDB).
+Following Microsoft policy I cannot share the detailed steps and screenshots of what I did to complete the lab. But all updated steps to complete this lab can be found on [MS Learn - Configure SIEM security operations using Microsoft Sentinel](https://learn.microsoft.com/en-us/credentials/applied-skills/configure-siem-security-operations-using-microsoft-sentinel/). After taking this lab and completing the assesment I earned the [applied skills certification](https://learn.microsoft.com/api/credentials/share/en-gb/JaedynDamms-1608/E40E566641FAFAA9?sharingId=592CAF5B8FD33BDB).
 
 ### Step 1 - [Configure SIEM operations using Microsoft Sentinel](https://learn.microsoft.com/en-gb/training/modules/configure-siem-security-operations-using-microsoft-sentinel/2-exercise)
 ![image](https://github.com/user-attachments/assets/92ebee21-7a5f-44ce-9abb-58cf16724255)
